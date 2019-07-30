@@ -6,6 +6,24 @@ body {
 	
 }
 
+div#left.circle{
+	margin-top: auto;
+	margin-right: 75px;
+	height: 150px;
+  	width: 150px;
+  	background-color: white;
+  	border-radius: 50%;
+}
+
+div#right.circle{
+	margin-top: auto;
+	margin-left: 75px;
+	height: 150px;
+  	width: 150px;
+  	background-color: white;
+  	border-radius: 50%;
+}
+
 .container {
 	display: inline-flex;
 	flex-direction: row;
@@ -19,6 +37,11 @@ body {
 	margin-bottom: 75px;
 	font-size: 3.5em;
 	font-family: 'Londrina Sketch', cursive;
+}
+
+#etchBody {
+	display: flex;
+	flex-direction: row;
 }
 
 #etchTemplate {

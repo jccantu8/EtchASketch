@@ -1,0 +1,40 @@
+body {
+	background-color: lightblue;
+}
+
+#btnReset {
+	
+}
+
+.container {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 960px;
+	height: 960px;
+}
+
+#header {
+	color: #ffc60a;
+	margin-bottom: 75px;
+	font-size: 3.5em;
+	font-family: 'Londrina Sketch', cursive;
+}
+
+#etchTemplate {
+	display: flex;
+	flex-direction: column;
+	background-color: #bb0f0f;
+	width: 1500px;
+	height: 1250px;
+	justify-content: center;
+  	align-items: center;
+  	border-radius: 25px;
+  	margin: auto;
+}
+
+.pixel {
+	background-color: grey;
+	width: auto;
+	height: auto;
+}
